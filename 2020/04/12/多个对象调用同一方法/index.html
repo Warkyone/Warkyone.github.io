@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="时间之塔">
 <meta property="og:description" content="首先创建构造一个新的构造函数，用于创建一类对象： 12345678910111213&#x2F;&#x2F;创建Person构造函数function Person(name,age,gender)&amp;#123;	this.name&#x3D;name;	this.age&#x3D;age;	this.gender&#x3D;gender;	&#x2F;&#x2F;向对象添加一个方法	this.sayName&#x3D;function()&amp;#123;		console.log(">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://yoursite.com/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png">
+<meta property="og:image" content="http://yoursite.com/2020/04/12/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png">
 <meta property="article:published_time" content="2020-04-12T10:28:50.000Z">
 <meta property="article:modified_time" content="2020-04-12T10:28:50.000Z">
 <meta property="article:author" content="大阮">
@@ -25,7 +25,7 @@
 <meta property="article:tag" content="javascript">
 <meta property="article:tag" content="面向对象">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png">
+<meta name="twitter:image" content="http://yoursite.com/2020/04/12/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png">
   
     <link rel="alternative" href="/atom.xml" title="时间之塔" type="application/atom+xml">
   
@@ -264,7 +264,7 @@
 <p>每创建一个函数，解析器都会向该函数中添加一个属性-prototype，prototype属性对应着一个对象，这个对象就是原型对象，通过prototype属性就能将方法或属性写入原型对象中</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//通过构造函数Person创建对象</span></span><br><span class="line"><span class="keyword">var</span> per1 = <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="string">&quot;Rdy&quot;</span>, <span class="number">18</span>, <span class="string">&quot;男&quot;</span>);</span><br><span class="line"><span class="keyword">var</span> per2 = <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="string">&quot;TOM&quot;</span>, <span class="number">20</span>, <span class="string">&quot;男&quot;</span>);</span><br><span class="line"><span class="comment">//调用方法</span></span><br><span class="line">per1.<span class="title function_">sayName</span>();</span><br><span class="line">per2.<span class="title function_">sayName</span>();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(per1.<span class="property">sayName</span>==per2.<span class="property">sayName</span>);<span class="comment">//true</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(per1.<span class="property">__proto__</span>.<span class="property">sayName</span>);<span class="comment">//true,确认此方法写入了原型</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png" alt="1"></p>
+<p><img src="/2020/04/12/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/1.png" alt="1"></p>
 <p>这时创建的对象由于共用原型对象，而方法写在原型对象中，因此它们访问的是同一个sayName方法，解决了产生的问题。</p>
 
     
@@ -544,11 +544,15 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">面向对象</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+                <a href="javascript:void(0)" class="js-tag color3">吐槽</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -557,10 +561,6 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">风景</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">吐槽</a>
               </li>
             
             <div class="clearfix"></div>
