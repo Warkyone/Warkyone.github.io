@@ -113,6 +113,15 @@
 				
 			</div>
 		
+			
+			
+			
+			
+			<div>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1827591485# 网易云分享的音乐ID(更换音乐请更改此配置项)&auto=0&height=32"></iframe>
+			</div>
+			
+		
 		</nav>
 	</header>		
 </div>
@@ -205,11 +214,6 @@
 
   
   
-        
-        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
-              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
-        </span>
-
 <a href="/2020/04/12/%E5%A4%9A%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%B0%83%E7%94%A8%E5%90%8C%E4%B8%80%E6%96%B9%E6%B3%95/" class="archive-article-date">
         <time datetime="2020-04-12T10:28:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-12</time>
 </a>
@@ -437,18 +441,6 @@
   </div>
   
   
-	<script src="/lib/busuanzi.pure.js"></script>
-	
-  
-  
-	
-	<span id="busuanzi_container_site_pv" style="display:none">
-		本站总访问量<span id="busuanzi_value_site_pv"></span>次	
-	        <span class="post-meta-divider" >|</span>
-	</span>
-  	<span id="busuanzi_container_site_uv" style='display:none'>
-  		本站访客数<span id="busuanzi_value_site_uv"></span>人
-  	</span>
   
 </footer>
 
@@ -474,6 +466,23 @@
 
 
 <!--  -->
+
+<script>
+  /* 标签页标题切换 */
+  var originTitle = document.title;
+  var titleTime;
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) {
+      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+      clearTimeout(titleTime);
+    } else {
+      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+      titleTime = setTimeout(function () {
+        document.title = originTitle;
+      }, 2000);
+    }
+  });
+</script>
 
 
     
@@ -544,15 +553,15 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">面向对象</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">吐槽</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">面向对象</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -612,7 +621,7 @@
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="https://github.com/tolineordy" target="_blank" class="search-title" >
+              <a href="https://github.com/" target="_blank" class="search-title" >
                 
                   <i class="icon-link icon"></i>
                 
